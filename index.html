@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michael Jordan Tribute</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Basketballs -->
+  <div class="basketball-bg">
+    <div class="basketball" style="top:10%; animation-delay:0s;">🏀</div>
+    <div class="basketball" style="top:30%; animation-delay:3s; font-size:40px;">🏀</div>
+    <div class="basketball" style="top:50%; animation-delay:6s; font-size:25px;">🏀</div>
+    <div class="basketball" style="top:70%; animation-delay:9s; font-size:35px;">🏀</div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Michael Jordan Tribute</h1>
+    <p>The Legend. The Icon. The Greatest of All Time.</p>
+  </section>
+
+  <!-- Video Background Section -->
+  <div class="video-section">
+    <video autoplay muted loop id="bg-video">
+      <source src="michael-jordan.3840x2160.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+
+    <!-- Timeline -->
+    <section class="timeline">
+      <h2>Career Timeline</h2>
+      <ul>
+        <li>1984 - Drafted by the Chicago Bulls</li>
+        <li>1991 - Won first NBA Championship</li>
+        <li>1996 - Returned and led Bulls to 72-win season</li>
+        <li>1998 - Last shot with Bulls, sixth Championship</li>
+        <li>2003 - Final retirement from NBA</li>
+      </ul>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="card achievements">
+      <h2>Achievements</h2>
+      <p>6× NBA Champion, 5× MVP, 14× All-Star, 10× Scoring Champion, 2× Olympic Gold Medalist.</p>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="card">
+      <h2>Career Stats</h2>
+      <div class="stats">
+        <div class="stat" data-target="32292">0<br><small>Points</small></div>
+        <div class="stat" data-target="5633">0<br><small>Assists</small></div>
+        <div class="stat" data-target="6672">0<br><small>Rebounds</small></div>
+      </div>
+    </section>
+
+    <!-- Legacy Section -->
+    <section class="card legacy">
+      <h2>Legacy</h2>
+      <p>Michael Jordan’s influence extends beyond basketball. His Air Jordan brand revolutionized sports marketing, and his competitive spirit continues to inspire athletes worldwide.</p>
+    </section>
+
+    <!-- Quotes Section -->
+    <section class="card quotes">
+      <h2>Famous Quote</h2>
+      <p>"I've failed over and over and over again in my life. And that is why I succeed."</p>
+    </section>
+
+    <!-- Highlight Reels -->
+    <!-- <section class="card">
+      <h2>Highlight Reels</h2>
+      <iframe width="100%" height="400" src="https://www.youtube.com" title="Michael Jordan Highlights" frameborder="0" allowfullscreen></iframe>
+    </section> -->
+
+    <!-- Fun Fact Section -->
+    <section class="card">
+      <h2>Did You Know?</h2>
+      <p id="fun-fact">Michael Jordan played two seasons of minor league baseball during his first retirement.</p>
+    </section>
+  </div>
+
+  <!-- Video Toggle -->
+  <button class="video-toggle" id="toggleBtn">Pause Video</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
